@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0 0 10px 0;
+}
+
+.header select {
+    font-size: 1rem;
+}
+
+.slideshow {
+    height: 100%;
+    background-color: rgb(88, 10, 151);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.slide {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 80%;
+    width: 80%;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
